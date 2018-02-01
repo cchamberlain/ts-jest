@@ -1,6 +1,6 @@
 {
   "name": "ts-jest-next",
-  "version": "22.0.2",
+  "version": "22.0.3",
   "main": "index.js",
   "types": "./dist/index.d.ts",
   "description": "A preprocessor with sourcemap support to help use Typescript with Jest",
@@ -86,7 +86,6 @@
     "typescript": "2.x"
   },
   "devDependencies": {
-    "babel-preset-env": "^7.0.0-beta.3",
     "@types/babel-core": "^6.25.3",
     "@types/es6-shim": "latest",
     "@types/fs-extra": "4.0.7",
@@ -94,6 +93,7 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/source-map-support": "latest",
+    "babel-preset-env": "^7.0.0-beta.3",
     "cross-spawn": "latest",
     "cross-spawn-with-kill": "latest",
     "doctoc": "latest",
