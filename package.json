@@ -1,5 +1,5 @@
 {
-  "name": "ts-jest",
+  "name": "ts-jest-next",
   "version": "22.0.2",
   "main": "index.js",
   "types": "./dist/index.d.ts",
@@ -70,10 +70,10 @@
     ]
   },
   "dependencies": {
-    "babel-core": "^6.24.1",
+    "babel-core": "^7.0.0-beta.3",
     "babel-plugin-istanbul": "^4.1.4",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
-    "babel-preset-jest": "^22.0.1",
+    "babel-preset-jest": "^22.1.0",
     "cpx": "^1.5.0",
     "fs-extra": "4.0.3",
     "jest-config": "^22.0.1",
@@ -86,14 +86,14 @@
     "typescript": "2.x"
   },
   "devDependencies": {
-    "@types/babel-core": "^6.7.14",
+    "babel-preset-env": "^7.0.0-beta.3",
+    "@types/babel-core": "^6.25.3",
     "@types/es6-shim": "latest",
     "@types/fs-extra": "4.0.7",
     "@types/jest": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/source-map-support": "latest",
-    "babel-preset-env": "^1.6.0",
     "cross-spawn": "latest",
     "cross-spawn-with-kill": "latest",
     "doctoc": "latest",
@@ -106,7 +106,7 @@
     "rimraf": "latest",
     "ts-jest": "latest",
     "tslint": "next",
-    "typescript": "^2.4.1"
+    "typescript": "^2.7.0"
   },
   "lint-staged": {
     "*.js": [
